@@ -1,0 +1,59 @@
+.btn{
+  display:inline-block;
+  background-color:$iconsColor;
+  color:$lightColor;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-family: $fontMedium;
+  padding-top:1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 3rem;
+  background-image: url("../img/icons/dropdown.svg");
+  background-position: 90% center;
+  background-repeat: no-repeat;
+  border-radius: 1.6rem;
+  border: none;
+  cursor: pointer;
+  transition:background-color 0.3s ease;
+  &:hover{
+    background-color: lighten($iconsColor, 5%);
+  }
+  &-primary{
+    display:inline-block;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color:$iconsColor;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition:  background-color 0.5s ease;
+    &:hover{
+      background-color: lighten($iconsColor, 10%);
+    }
+    &--tel{
+      background-image: url("../img/icons/tel-icon.svg");
+    }
+    &--message{
+      background-image: url("../img/icons/message-icon.svg");
+    }
+    &--contact{
+      background-image: url("../img/icons/contact-icon.svg");
+    }
+    &--close{
+      background-image: url("../img/icons/close-icon.svg");
+    }
+    &--setting{
+      background-image: url("../img/icons/setting-icon.svg");
+    }
+    &--status{
+      background-image: url("../img/icons/status-icon.svg");
+    }
+    &--burg{
+      background-image: url("../img/icons/burg-icon.svg");
+    }
+    &--search{
+      background-image: url("../img/icons/search-icon.svg");
+    }
+  }
+}

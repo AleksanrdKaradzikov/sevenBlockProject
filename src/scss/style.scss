@@ -1,0 +1,32 @@
+
+@import 'fonts';
+@import 'variables';
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  outline: none;
+}
+html{
+  font-size:10px;
+}
+body {
+  font-family: $fontNormal;
+  font-size: 1.5rem;
+  overflow-x: hidden;
+}
+@import 'grid';
+@import 'icon';
+@import 'img';
+@import 'btn';
+@import 'more';
+@import 'overflow-wrapp';
+@import 'heading';
+@import 'gradient-block';
+@import 'side';
+@import 'content-block';
+@import 'span';
+@import 'modal';
+
+

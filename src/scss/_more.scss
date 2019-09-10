@@ -1,0 +1,22 @@
+.more{
+  font-family:$fontMedium;
+  font-size:1.6rem;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  margin-bottom: 1rem;
+  &:hover{
+      color: $activeTextColor;
+  }
+  &-img{
+    height:1rem;
+    margin-right:1rem;
+  }
+  &--active{
+    .more-img{
+      transition:  transform 0.3s ease;
+      transform: rotate(180deg);
+    }
+  }
+}

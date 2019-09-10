@@ -1,0 +1,70 @@
+.modal{
+  position: fixed;
+  top:0;
+  right:0;
+  height: 100%;
+  max-height: 100%;
+  width:440px;
+  padding:2rem;
+  background-color: $lightColor;
+  z-index: 2;
+  box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2), -2px 0px 4px rgba(69, 79, 126, 0.02);
+  border-left: 1px solid $opacityColor;
+  transition:transform 0.5s ease-in-out;
+  transform: translateX(200%);
+  @media screen and(max-width:530px){
+    width: 100%;
+  }
+  &--active{
+    transition:transform 0.5s ease-in-out;
+    transform: translateX(0);
+  }
+  &__heading{
+    @media screen and(max-width:530px){
+      margin-top:5rem;
+    }
+  }
+  &__btn-close{
+    position:absolute;
+    left: -7rem;
+    top:2rem;
+    @media screen and(max-width:530px){
+      left:2rem;
+    }
+  }
+  &-content{
+    margin-top:1rem;  
+    max-height: 80%;
+    overflow:auto;
+  }
+  &-feedback{
+    &-form{
+      display:flex;
+      flex-direction: column;
+      &__config{
+        font-family: $fontMedium;
+        font-size: 1.4rem;
+        color:$activeTextColor;
+        margin-bottom: 1rem;
+      }
+      &__btn{
+      align-self: flex-end;
+      }
+    }
+  }
+}
+.input{
+  padding:1.5rem;
+  border:1px solid $lineColor;
+  color:$inputColor;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+.textarea{
+  border:1px solid $lineColor;
+  height: 12rem;
+  padding:1.5rem;
+  color:$inputColor;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}

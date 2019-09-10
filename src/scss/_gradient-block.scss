@@ -1,0 +1,16 @@
+.gradient-block{
+  padding:1.5rem 0  1.5rem 0;
+  background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  border-top:0.5px solid $opacityColor;
+  margin-bottom:3rem;
+}
+.gradient-heading{
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  text-transform: uppercase;
+  font-size:1.6rem;
+  color:$activeTextColor;
+  letter-spacing: -0.2px;
+  line-height: 2.4rem;
+  padding-left:2rem;
+}
