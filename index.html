@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webpack 4 Starter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+<link href="style.css" rel="stylesheet"></head>
+<body>
+    <div class="grid">
+        <aside class="side-bar">
+            <header class="header">
+                <div class="header-logo">
+                    <a href="#" class="btn-primary btn-primary--close header-logo__icon-close"></a>
+                    <img class="img header-logo__img" src="img/Group-logo.svg" alt="Логотип">
+                </div>
+                <div class="header-search">
+                    <input class="header-search__input" type="search">
+                    <a href="#" class="btn-primary btn-primary--search"></a>
+                </div>
+            </header>
+            
+            <nav class="navbar-block">
+                <li><a href="#" class="navbar-block__link">Ремонт техники</a></li>
+                <li><a href="#" class="navbar-block__link navbar-block__link--active">Услуги и сервисы</a></li>
+                <li><a href="#" class="navbar-block__link">Корпоративным клиентам</a></li>
+                <li> <a href="#" class="navbar-block__link">Продавцам техники</a></li>
+                <li>  <a href="#" class="navbar-block__link">Партнерам</a></li>
+                <li> <a href="#" class="navbar-block__link">Производителям</a></li>
+                <li><a href="#" class="navbar-block__link">Наши сервисные центры</a></li>
+                <li><a href="#" class="navbar-block__link">Контакты</a></li>
+            </nav>
+            <div class="contacts">
+                <div class="contacts-block">
+                    <a href="#" class="btn-primary btn-primary--tel modal-phone-btn"></a>
+                    <a href="#" class="btn-primary btn-primary--message modal-feedback-btn"></a>
+                    <a href="#" class="btn-primary btn-primary--contact"></a>
+                </div>
+                <div class="contacts-wrapp">
+                    <a href="mailto:mail@cps.com" class="contacts-wrapp__link contacts-wrapp__link--mail">mail@cps.com</a>
+                    <a href="tel:88008908900" class="contacts-wrapp__link contacts-wrapp__link--tel">8 800 890 8900</a>
+                </div>
+                <div class="langs">
+                    <a href="#" class="langs__link langs__link--active">RU</a>
+                    <a href="#" class="langs__link">EN</a>
+                    <a href="#" class="langs__link">CH</a>
+                </div>
+            </div>
+
+            
+        </aside>
+        
+        <div class="content-block">
+                <section class="section section-small">
+                        <div class="section-small-brand">
+                            <a href="#" class="btn-primary btn-primary--burg section-small-brand__icon-burg"></a>
+                            <img class="img section-small-brand__img" src="img/Group-logo.svg" alt="Логотип">
+                        </div>
+                        <div class="section-small-setting">
+                            <a href="#" class="btn-primary btn-primary--tel modal-phone-btn"></a>
+                            <a href="#" class="btn-primary btn-primary--message modal-feedback-btn"></a>
+                            <a href="#" class="btn-primary btn-primary--contact"></a>
+                            <a href="#" class="btn-primary btn-primary--setting"></a>
+                            <a href="#" class="btn-primary btn-primary--status"></a>
+                        </div>
+                </section>
+                <section class="section section-top">
+                    <div class="section-top__description">
+                        <h1 class="heading section-top-heading">Услуги и сервисы</h1>
+                        <div class="section-top-actualites">
+                                <a href="#" class="section-top-actualites__link">
+                                    <span class="span">Оставить заявку</span>
+                                    <div class="icon section-top-actualites__icon-setting"></div>
+                                </a>
+                                <a href="#" class="section-top-actualites__link">
+                                    <span class="span">Оставить заявку</span>
+                                    <div class="icon section-top-actualites__icon-status"></div>
+                                </a>
+                        </div>
+                    </div>
+                    
+                    <nav class="section-top-navigation">
+                        <a href="#" class="section-top-navigation__link section-top-navigation__link--active">Ремонтируемые бренды</a>
+                        <a href="#" class="section-top-navigation__link">Ремонтируемые устройства</a>
+                        <a href="#" class="section-top-navigation__link">Цены на услуги</a>
+                        <a href="#" class="section-top-navigation__link">Адреса сервисных центров</a>
+                        <a href="#" class="section-top-navigation__link">Специальные цены</a>
+                        <a href="#" class="section-top-navigation__link">Отзывы</a>
+                    </nav>
+                </section>
+                
+                <section class="section section-feedback">
+                        <div class="section-feedback__content">
+                                  <div class="discription">
+                                      <p class="discription-text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+                                       <p class="discription-text">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+                                  </div>
+                                  <div class="discription discription-hidden">
+                                       <p class="discription-text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+                                       <p class="discription-text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+                                  </div>
+                                  <div class="more">
+                                        <img class="more-img" src="img/icons/arrow-down.svg" alt="Смотреть еще">
+                                        <span>Читать далее</span>
+                                  </div>
+                        </div>
+                        <img class="section-feedback__image" src="img/feedback-img.png" alt="Большой логотип">
+              </section>
+              
+              <div class="gradient-block">
+                    <h2 class="gradient-heading">Ремонт техники различных брендов</h2>
+               </div>
+               
+               <section class="section belt-block">
+                    <div class="brands-overflow">
+                         <div class="brands-overflow__item">
+                              <img src="img/brands/Lenovo.png" alt="Lenovo">
+                              <div class="sircl-block"></div>
+                         </div>
+                         <div class="brands-overflow__item">
+                              <img src="img/brands/samsung.png" alt="Sumsung">
+                              <div class="sircl-block"></div>
+                         </div>
+                         <div class="brands-overflow__item">
+                              <img src="img/brands/apple.png" alt="Apple">
+                              <div class="sircl-block"></div>
+                         </div>
+                         <div class="brands-overflow__item">
+                              <img src="img/brands/viewsonic.png" alt="Vie">
+                              <div class="sircl-block"></div>
+                         </div>
+                         <div class="brands-overflow__item">
+                              <img src="img/brands/bosch.png" alt="Bosch">
+                              <div class="sircl-block"></div>
+                         </div>
+                         <div class="brands-overflow__item">
+                              <img src="img/brands/hp.png" alt="Hp">
+                              <div class="sircl-block"></div>
+                         </div>
+                         <div class="brands-overflow__item">
+                              <img src="img/brands/acer.png" alt="Acer">
+                              <div class="sircl-block"></div>
+                         </div>
+                         <div class="brands-overflow__item">
+                              <img src="img/brands/sony.png" alt="Sony">
+                              <div class="sircl-block"></div>
+                         </div>
+                    </div>
+                    <div class="brands-overflow-hidden brands-overflow-hidden">
+                              <div class="brands-overflow__item">
+                                        <img src="img/brands/Lenovo.png" alt="Lenovo">
+                                        <div class="sircl-block"></div>
+                                   </div>
+                                   <div class="brands-overflow__item">
+                                        <img src="img/brands/samsung.png" alt="Sumsung">
+                                        <div class="sircl-block"></div>
+                                   </div>
+                                   <div class="brands-overflow__item">
+                                        <img src="img/brands/apple.png" alt="Apple">
+                                        <div class="sircl-block"></div>
+                                   </div>
+                                   <div class="brands-overflow__item">
+                                        <img src="img/brands/viewsonic.png" alt="Vie">
+                                        <div class="sircl-block"></div>
+                                   </div>
+                                   <div class="brands-overflow__item">
+                                        <img src="img/brands/bosch.png" alt="Bosch">
+                                        <div class="sircl-block"></div>
+                                   </div>
+                                   <div class="brands-overflow__item">
+                                        <img src="img/brands/hp.png" alt="Hp">
+                                        <div class="sircl-block"></div>
+                                   </div>
+                                   <div class="brands-overflow__item">
+                                        <img src="img/brands/acer.png" alt="Acer">
+                                        <div class="sircl-block"></div>
+                                   </div>
+                                   <div class="brands-overflow__item">
+                                        <img src="img/brands/sony.png" alt="Sony">
+                                        <div class="sircl-block"></div>
+                                   </div>
+                                     <div class="brands-overflow__item">
+                                        <img src="img/brands/sony.png" alt="Sony">
+                                        <div class="sircl-block"></div>
+                                   </div>
+                    </div>
+                    <div class="more">
+                              <img class="more-img" src="img/icons/arrow-down.svg" alt="Смотреть еще"> 
+                              <span>Показать все (9)</span>
+                     </div>
+
+          </section>
+          
+          <section class="section belt-block-mobile">
+                <div class="slick-wrapper">
+                        <div class="brands-overflow__item swiper-slide">
+                             <img src="img/brands/Lenovo.png" alt="Lenovo">
+                             <div class="sircl-block"></div>
+                        </div>
+                        <div class="brands-overflow__item swiper-slide">
+                             <img src="img/brands/samsung.png" alt="Samsung">
+                             <div class="sircl-block"></div>
+                        </div>
+                        <div class="brands-overflow__item swiper-slide">
+                             <img src="img/brands/apple.png" alt="Apple">
+                             <div class="sircl-block"></div>
+                        </div>
+                        <div class="brands-overflow__item swiper-slide">
+                             <img src="img/brands/viewsonic.png" alt="Vie">
+                             <div class="sircl-block"></div>
+                        </div>
+                        <div class="brands-overflow__item swiper-slide">
+                             <img src="img/brands/bosch.png" alt="Bosch">
+                             <div class="sircl-block"></div>
+                        </div>
+                        <div class="brands-overflow__item swiper-slide">
+                             <img src="img/brands/hp.png" alt="Hp">
+                             <div class="sircl-block"></div>
+                        </div>
+                        <div class="brands-overflow__item swiper-slide">
+                             <img src="img/brands/acer.png" alt="Acer">
+                             <div class="sircl-block"></div>
+                        </div>
+                        <div class="brands-overflow__item swiper-slide">
+                             <img src="img/brands/sony.png" alt="Sony">
+                             <div class="sircl-block"></div>
+                        </div>
+                        <div class="brands-overflow__item swiper-slide">
+                             <img src="img/brands/sony.png" alt="Sony">
+                             <div class="sircl-block"></div>
+                        </div>
+                   </div>
+                   
+                   <div class="slick-pagination"></div>
+          </section>
+          
+          <div class="gradient-block">
+                <h2 class="gradient-heading">Ремонт различных видов техники</h2>
+           </div>
+           
+           <section class="section belt-equipment">
+                <div class="equipment-overflow">
+                        <div class="equipment-overflow__item">
+                             <p class="equipment-overflow__text">Ремонт ноутбуков</p>
+                             <div class="sircl-block sircl-block--self"></div>    
+                        </div>
+                        <div class="equipment-overflow__item">
+                             <p class="equipment-overflow__text">Ремонт планшетов</p>
+                             <div class="sircl-block sircl-block--self"></div>
+                        </div>
+                        <div class="equipment-overflow__item">
+                             <p class="equipment-overflow__text">Ремонт ПК</p>
+                             <div class="sircl-block sircl-block--self"></div>
+                        </div>
+                        <div class="equipment-overflow__item">
+                             <p class="equipment-overflow__text">Ремонт  мониторов</p>
+                             <div class="sircl-block sircl-block--self"></div>
+                        </div>
+              </div>
+              
+              <div class="equipment-overflow equipment-overflow--hidden">
+                    <div class="equipment-overflow__item">
+                         <p class="equipment-overflow__text">Ремонт ноутбуков</p>
+                         <div class="sircl-block sircl-block--self"></div>    
+                    </div>
+                    <div class="equipment-overflow__item">
+                         <p class="equipment-overflow__text">Ремонт планшетов</p>
+                         <div class="sircl-block sircl-block--self"></div>
+                    </div>
+                    <div class="equipment-overflow__item">
+                         <p class="equipment-overflow__text">Ремонт ПК</p>
+                         <div class="sircl-block sircl-block--self"></div>
+                    </div>
+                    <div class="equipment-overflow__item">
+                         <p class="equipment-overflow__text">Ремонт  мониторов</p>
+                         <div class="sircl-block sircl-block--self"></div>
+                    </div>
+                    <div class="equipment-overflow__item">
+                         <p class="equipment-overflow__text">Ремонт  мониторов</p>
+                         <div class="sircl-block sircl-block--self"></div>
+                    </div>
+                     <div class="equipment-overflow__item">
+                         <p class="equipment-overflow__text">Ремонт  мониторов</p>
+                         <div class="sircl-block sircl-block--self"></div>
+                    </div>
+                     <div class="equipment-overflow__item">
+                         <p class="equipment-overflow__text">Ремонт  мониторов</p>
+                         <div class="sircl-block sircl-block--self"></div>
+                    </div>
+                     <div class="equipment-overflow__item">
+                         <p class="equipment-overflow__text">Ремонт  мониторов</p>
+                         <div class="sircl-block sircl-block--self"></div>
+                    </div>
+                     <div class="equipment-overflow__item">
+                         <p class="equipment-overflow__text">Ремонт  мониторов</p>
+                         <div class="sircl-block sircl-block--self"></div>
+                    </div>
+
+          </div>
+          
+          <div class="more">
+                <img class="more-img" src="img/icons/arrow-down.svg" alt="Смотреть еще">
+                <span>Показать все (9)</span>
+             </div>
+           </section>
+           
+           <section class="section belt-equipment-mobile">
+                <div class="slick-wrapper">
+                        <div class="equipment-overflow__item">
+                             <p class="equipment-overflow__text">Ремонт ноутбуков</p>
+                             <div class="sircl-block sircl-block--self"></div>    
+                        </div>
+                        <div class="equipment-overflow__item">
+                             <p class="equipment-overflow__text">Ремонт планшетов</p>
+                             <div class="sircl-block sircl-block--self"></div>
+                        </div>
+                        <div class="equipment-overflow__item">
+                             <p class="equipment-overflow__text">Ремонт ПК</p>
+                             <div class="sircl-block sircl-block--self"></div>
+                        </div>
+                        <div class="equipment-overflow__item">
+                             <p class="equipment-overflow__text">Ремонт  мониторов</p>
+                             <div class="sircl-block sircl-block--self"></div>
+                        </div>
+                        <div class="equipment-overflow__item">
+                             <p class="equipment-overflow__text">Ремонт  мониторов</p>
+                             <div class="sircl-block sircl-block--self"></div>
+                        </div>
+                         <div class="equipment-overflow__item">
+                             <p class="equipment-overflow__text">Ремонт  мониторов</p>
+                             <div class="sircl-block sircl-block--self"></div>
+                        </div>
+                         <div class="equipment-overflow__item">
+                             <p class="equipment-overflow__text">Ремонт  мониторов</p>
+                             <div class="sircl-block sircl-block--self"></div>
+                        </div>
+                         <div class="equipment-overflow__item">
+                             <p class="equipment-overflow__text">Ремонт  мониторов</p>
+                             <div class="sircl-block sircl-block--self"></div>
+                        </div>
+                         <div class="equipment-overflow__item">
+                             <p class="equipment-overflow__text">Ремонт  мониторов</p>
+                             <div class="sircl-block sircl-block--self"></div>
+                        </div>
+                   </div>
+                   <div class="slick-pagination"></div>
+           </section>
+           <div class="gradient-block">
+                <h2 class="gradient-heading">цены на услуги</h2>
+           </div>
+           
+           <section class="section section-price">
+                <div class="table-price">
+                        <div class="table-price__head">
+                             <p class="table-price__head--td">Ремонтные услуги</p>
+                             <p class="table-price__head--td">Диагностика</p>
+                             <p class="table-price__head--td">Срок</p>
+                        </div>
+                        <div class="table-price__body">
+                             <div class="table-price__body--tr">
+                                  <p class="table-price__body--td">Диагностика</p>
+                                  <p class="table-price__body--td">Бесплатно</p>
+                                  <p class="table-price__body--td"><span>30 мин</span><button class="btn">Заказать</button></p>
+                             </div>
+                             <div class="table-price__body--tr">
+                                 <p class="table-price__body--td">Замена дисплея</p>
+                                 <p class="table-price__body--td">1 000 ₽</p>
+                                 <p class="table-price__body--td"><span>30-120 мин</span><button class="btn">Заказать</button></p>
+                            </div>
+                            <div class="table-price__body--tr">
+                                 <p class="table-price__body--td">Замена полифонического динамика</p>
+                                 <p class="table-price__body--td">1 000 ₽</p>
+                                 <p class="table-price__body--td"><span>30-120 мин</span><button class="btn">Заказать</button></p>
+                            </div>
+                            <div class="table-price__body--tr">
+                                 <p class="table-price__body--td">Тестирование с выдачей технического заключения</p>
+                                 <p class="table-price__body--td">1 000 ₽</p>
+                                 <p class="table-price__body--td"><span>30-120 мин</span><button class="btn">Заказать</button></p>
+                            </div>
+                            <div class="table-price__body--tr">
+                                 <p class="table-price__body--td">Замена программного обеспечения</p>
+                                 <p class="table-price__body--td">1 000 ₽</p>
+                                 <p class="table-price__body--td"><span>30-120 мин</span><button class="btn">Заказать</button></p>
+                            </div>
+                        </div>
+                   </div>
+           </section>
+           
+           <section class="section section-price-mobile">
+                <div class="slick-wrapper">
+                        <div class="price-container">
+                             <p class="price-container__head">Ремонтные услуги</p>
+                             <p class="price-container__discription">Тестирование с выдачей технического заключения</p>
+                             <p class="price-container__head">Цена</p>
+                             <p class="price-container__discription">Бесплатно</p>
+                             <p class="price-container__head">Срок</p>
+                             <p class="price-container__discription"><span>30-120 мин</span><button class="btn">Заказать</button></p>
+                        </div>
+                        <div class="price-container">
+                             <p class="price-container__head">Ремонтные услуги</p>
+                             <p class="price-container__discription">Замена программного обеспечения</p>
+                             <p class="price-container__head">Цена</p>
+                             <p class="price-container__discription">1 000 ₽</p>
+                             <p class="price-container__head">Срок</p>
+                             <p class="price-container__discription"><span>30-120 мин</span><button class="btn">Заказать</button></p>
+                        </div>
+                        <div class="price-container">
+                             <p class="price-container__head">Ремонтные услуги</p>
+                             <p class="price-container__discription">Замена полифонического динамика</p>
+                             <p class="price-container__head">Цена</p>
+                             <p class="price-container__discription">1 000 ₽</p>
+                             <p class="price-container__head">Срок</p>
+                             <p class="price-container__discription"><span>30-120 мин</span><button class="btn">Заказать</button></p>
+                        </div>
+                        <div class="price-container">
+                             <p class="price-container__head">Ремонтные услуги</p>
+                             <p class="price-container__discription">Замена дисплея</p>
+                             <p class="price-container__head">Цена</p>
+                             <p class="price-container__discription">1 000 ₽</p>
+                             <p class="price-container__head">Срок</p>
+                             <p class="price-container__discription"><span>30-120 мин</span><button class="btn">Заказать</button></p>
+                        </div>
+                        <div class="price-container">
+                             <p class="price-container__head">Ремонтные услуги</p>
+                             <p class="price-container__discription">Диагностика</p>
+                             <p class="price-container__head">Цена</p>
+                             <p class="price-container__discription">Бесплатно</p>
+                             <p class="price-container__head">Срок</p>
+                             <p class="price-container__discription"><span>30 мин</span><button class="btn">Заказать</button></p>
+                        </div>
+                    </div>
+                    <div class="slick-pagination"></div>
+           </section>
+           <section class="section section-price__sentence">
+                <p class="sentence-discription">Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.</p>
+                <a class="sentence-link" href="#">Получить коммерческое предложение</a>
+           </section>
+           
+           <div class="gradient-block">
+                <h2 class="gradient-heading">Адреса сервисных центров</h2>
+           </div>
+           
+           <section class="section address-block">
+                <div class="address-block__link-block">
+                          <a class="address-link" href="#">Наши партнеры</a>
+                </div>
+                <div class="address-block__map">
+                         <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Acf9798b7f68fd7415e88e3d26f8f5df64ceb68d167917fcb1bd0fd7c997e7693&amp;width=100%25&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+                <div class="address-block__information">
+                     <div class="discription-block">
+                          <p class="discription-block__text">Наши сервисные центры расположены по всей России, в таких городах, как Москва, Санкт-Петербург, Казань, Нижний Новгород, владивосток, и др. Все сервисные центры являются авторизованными и имеют единую базу и проходят ежемесячную проверку качества оказываемых услуг.</p>
+                          <p class="discription-block__text">Наши сервисные центры расположены по всей России, в таких городах, как Москва, Санкт-Петербург, Казань, Нижний Новгород, владивосток, и др. Все сервисные центры являются авторизованными и имеют единую базу и проходят ежемесячную проверку качества оказываемых услуг.</p>
+                     </div>
+                     <div class="discription-block">
+                          <p class="discription-block__text">Наши сервисные центры расположены по всей России, в таких городах, как Москва, Санкт-Петербург, Казань, Нижний Новгород, владивосток, и др. Все сервисные центры являются авторизованными и имеют единую базу и проходят ежемесячную проверку качества оказываемых услуг.</p>
+                          <p class="discription-block__text">Наши сервисные центры расположены по всей России, в таких городах, как Москва, Санкт-Петербург, Казань, Нижний Новгород, владивосток, и др. Все сервисные центры являются авторизованными и имеют единую базу и проходят ежемесячную проверку качества оказываемых услуг.</p>
+                     </div>
+                </div>     
+      </section>
+      
+      <footer class="footer">
+            <div class="footer__wrapp">
+                 <p class="footer-text"><span class="footer-span">© 2019 CPS</span><br>Разработано командой Apesong </p>
+                 <p class="footer-text">Политика конфиденциальности</p>
+                 <p class="footer-text">Информация, размещенная на данной странице,не является публичной офертой</p>
+            </div>
+       </footer>
+       
+        </div>
+    </div>
+    <div class="overflow-wrapp"></div>
+    <div class="modal modal-feedback">
+            <h2 class="heading modal__heading">
+                    Обратная связь
+            </h2>
+            <a href="#" class="btn-primary btn-primary--close modal__btn-close"></a>
+           <div class="modal-content">
+                <form class="modal-feedback-form">
+                        <input type="text" class="input modal-form__input" placeholder="Имя">
+                        <input type="tel" class="input modal-form__input" placeholder="Телефон">
+                        <input type="email" class="input modal-form__input" placeholder="Электронная почта">
+                        <textarea class="textarea">Сообщение</textarea>
+                        <p class="modal-feedback-form__config">
+                                Нажимая “отправить”, вы даете согласие на <span class="span-red">обработку персональных данных</span> и соглашаетесь с нашей <span class="span-red">политикой конфиденциальности</span>
+                        </p>
+                        <button class="btn modal-feedback-form__btn" type="submit">ОТПРАВИТЬ</button>
+                </form>
+           </div>
+    </div>
+    
+    <div class="modal modal-phone">
+            <h2 class="heading modal__heading">
+                    Заказать звонок
+            </h2>
+            <a href="#" class="btn-primary btn-primary--close modal__btn-close"></a>
+           <div class="modal-content">
+                <form class="modal-feedback-form">
+                        <input type="tel" class="input modal-form__input" placeholder="Телефон">
+                        <p class="modal-feedback-form__config">
+                                Нажимая “отправить”, вы даете согласие на <span class="span-red">обработку персональных данных</span> и соглашаетесь с нашей <span class="span-red">политикой конфиденциальности</span>
+                        </p>
+                        <button class="btn modal-feedback-form__btn" type="submit">ОТПРАВИТЬ</button>
+                </form>
+           </div>
+    </div>
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script>
+     $('.slick-wrapper').slick({
+          arrows:false,
+          dots:true,
+          dotsClass:'slick-pagination',
+               responsive: [
+          {
+               breakpoint: 767,
+               settings: {
+               slidesToShow: 2,
+               slidesToScroll: 2
+               }
+          },
+          {
+               breakpoint: 480,
+               settings: {
+               slidesToShow: 1,
+               slidesToScroll: 1,
+               }
+          },
+          {
+               breakpoint: 400,
+               settings: {
+               slidesToShow: 1,
+               slidesToScroll: 1,
+               }
+          }
+          ]
+     });
+</script>
+<script type="text/javascript" src="./js/bundle.js"></script></body>
+</html>
